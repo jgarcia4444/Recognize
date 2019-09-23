@@ -12,6 +12,7 @@
 		1FEB2DCA233890BE00B08ADD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FEB2DC8233890BE00B08ADD /* Main.storyboard */; };
 		1FEB2DCC233890C000B08ADD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FEB2DCB233890C000B08ADD /* Assets.xcassets */; };
 		1FEB2DCF233890C000B08ADD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FEB2DCD233890C000B08ADD /* LaunchScreen.storyboard */; };
+		1FEB2DD7233890CB00B08ADD /* first_Image_Classifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1FEB2DD6233890CB00B08ADD /* first_Image_Classifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1FEB2DCB233890C000B08ADD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FEB2DCE233890C000B08ADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FEB2DD0233890C000B08ADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FEB2DD6233890CB00B08ADD /* first_Image_Classifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = first_Image_Classifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				1FEB2DC4233890BE00B08ADD /* AppDelegate.swift */,
 				1FEB2DC6233890BE00B08ADD /* ViewController.swift */,
 				1FEB2DC8233890BE00B08ADD /* Main.storyboard */,
+				1FEB2DD6233890CB00B08ADD /* first_Image_Classifier.mlmodel */,
 				1FEB2DCB233890C000B08ADD /* Assets.xcassets */,
 				1FEB2DCD233890C000B08ADD /* LaunchScreen.storyboard */,
 				1FEB2DD0233890C000B08ADD /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FEB2DC7233890BE00B08ADD /* ViewController.swift in Sources */,
+				1FEB2DD7233890CB00B08ADD /* first_Image_Classifier.mlmodel in Sources */,
 				1FEB2DC5233890BE00B08ADD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
